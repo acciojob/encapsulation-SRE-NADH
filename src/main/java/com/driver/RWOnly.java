@@ -1,9 +1,8 @@
 package com.driver;
 
 public class RWOnly {
-    private String Name="";
-     RWOnly(String name){
-         this.Name=name;
+    private String Name;
+     RWOnly(){
      }
 
     public String getName() { 
@@ -11,6 +10,7 @@ public class RWOnly {
     }
 
     public void setName(String name) {
-        Name = name;
+
+         Name = name;
     }
 }
